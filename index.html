@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="ma.css">
     <link rel="icon" href="image/haha.png" type="image/png">
 
@@ -201,7 +201,8 @@
         <h2 class="section-title">大學生活｜<span>College life</span></h2><br>
         <div class="tabs">        
             <button class="tab-button active" data-tab="club">社團活動</button>
-            <button class="tab-button" data-tab="academic">課業表現</button>
+            <button class="tab-button" data-tab="academic">專案表現</button>
+            <button class="tab-button" data-tab="school">課業參與</button>
         </div>
 
         <div class="tab-content active" id="club"> 
@@ -253,7 +254,41 @@
             </div> 
         </div>
 
+        <div class="tab-content" id="school">
+          <!--課堂1-->
+          <div class="activity-box">
+            <img src="image/good.jpg" alt="書卷獎" class="certificate">
+            <div class="activity-text">
+              <h3>113-1學年度 - 書卷獎</h3>
+              <p>於113-1學年度時拿到書卷獎，希望能繼續保持！</p>
+            </div>
+          </div>    
+          
+           <!--課堂2-->
+          <div class="activity-box">
+            <img src="image/good1.jpg" alt="專精">
+            <div class="activity-text">
+              <h3>113-1學年度 - 專精書卷獎</h3>
+              <p>於113-1學年度時拿到「作業研究(上)」專精書卷獎，希望能繼續加油！</p>
+            </div>
+          </div> 
+      </div>
+
     </section>
+
+    <section class="message-board" id="message">
+        <h2 class="section-title">留言板｜<span>Message Board</span></h2>
+        <form class="message-form">
+          <label for="name">名字：</label>
+          <input type="text" id="name" name="name" placeholder="請輸入你的名字">
+      
+          <label for="comment">留言內容：</label>
+          <textarea id="comment" name="comment" placeholder="請輸入想說的話:)"></textarea>
+      
+          <button type="submit" disabled>送出</button>
+        </form>
+    </section>
+    
       
       
     <footer class="end">
